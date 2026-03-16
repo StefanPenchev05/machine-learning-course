@@ -7,3 +7,9 @@ print(data.head())
 
 # Gives information(data types, non-null field... etc.) about the data in the data frame
 print(data.info())
+
+# Gives Important measures - mean, median, min/max .. etc.
+print(data.describe())
+
+# Investigate missing values
+print(data.isnull().sum())
