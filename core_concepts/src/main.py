@@ -45,3 +45,7 @@ xs = [1, 2, 3, 4]
 xy = [3, 5, 7, 9]  # follows y = 2x + 1
 
 print(empirical_risk(xs, xy, a=2, b=1))
+
+
+
+
